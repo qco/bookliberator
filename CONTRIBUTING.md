@@ -34,3 +34,7 @@ Here's an example:
   Fix validation to only raise an error if all the necessary
   conditions are met.
 ```
+
+### Linting
+
+The linter should be run on your contribution before opening a PR.  In order to run the linter manually you can type `./gradlew lint` from the project root.
