@@ -7,9 +7,9 @@
 
     <fragment
         android:id="@+id/FirstFragment"
-        android:name="com.example.bookliberator.FirstFragment"
-        android:label="@string/first_fragment_label"
-        tools:layout="@layout/fragment_first">
+        android:name="com.example.bookliberator.IntroductionFragment"
+        android:label="@string/introduction_fragment_label"
+        tools:layout="@layout/fragment_introduction">
 
         <action
             android:id="@+id/action_FirstFragment_to_SecondFragment"
