@@ -25,7 +25,7 @@ class IntroductionFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
 
         view.findViewById<Button>(R.id.button_introduction_continue).setOnClickListener {
-            findNavController().navigate(R.id.action_FirstFragment_to_SecondFragment)
+            findNavController().navigate(R.id.action_IntroductionFragment_to_ScannerFragment)
         }
     }
 }
